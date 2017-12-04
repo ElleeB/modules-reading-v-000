@@ -3,7 +3,7 @@ require_relative './class_methods_module.rb'
 
 class Kid
 
-  include Dance #module
+  include Dance #module loades methods as instance methods
 
   attr_accessor :name
 
