@@ -5,6 +5,8 @@ class Kid
 
   include Dance #module loades methods as instance methods
 
+  extend MetaDancing
+
   attr_accessor :name
 
   def initialize(name)
