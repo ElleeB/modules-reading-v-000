@@ -5,6 +5,8 @@ class Dancer
 
   include Dance #module loads methods as instance methods
 
+  extend MetaDancing
+
   attr_accessor :name
 
   def initialize(name)
